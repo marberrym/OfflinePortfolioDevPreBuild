@@ -1,0 +1,20 @@
+.lhLogo {
+    position: relative;
+    left:0;
+    right:0;
+    animation-direction: alternate;
+}
+
+.lhLogo:hover {
+    animation: skew 2s alternate-reverse;
+}
+
+@keyframes skew {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(1800deg);
+        filter: blur(1px) saturate(2);
+    }
+  }

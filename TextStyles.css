@@ -125,7 +125,7 @@
 
 .sixthS1Text {
     font-size: 1.3em; 
-    line-height: 120%;
+    line-height: 90%;
     transition: 1s ease-in-out;
 }
 .sixthS1Text:hover {
@@ -140,7 +140,7 @@
 
 .sixthS2Text {
     font-size: 1.3em;
-    line-height: 95%;
+    line-height: 90%;
     transition: 1s ease-in-out;
 }
 .sixthS2Text:hover {
