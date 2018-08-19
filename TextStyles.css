@@ -19,7 +19,7 @@
 }
 .firstRowText:hover {
     transform: scale(1.3);
-    color: rgb(6, 31, 160);
+    color: rgb(8, 39, 192);
     text-shadow:
         -1px -1px 0 whitesmoke,
         1px -1px 0 whitesmoke,
@@ -36,7 +36,7 @@
 }
 .secondRowSmallText:hover {
     transform: scale(1.3);
-    color: rgb(7, 139, 165);
+    color: rgb(3, 153, 184);
     text-shadow:
         -1px -1px 0 whitesmoke,
         1px -1px 0 whitesmoke,
@@ -51,7 +51,7 @@
 }
 .thirdRowSmallText:hover {
     transform: scale(1.3);
-    color: rgb(107, 183, 7);
+    color: rgb(127, 7, 207);
     text-shadow:
         -1px -1px 0 whitesmoke,
         1px -1px 0 whitesmoke,
@@ -66,7 +66,7 @@
 }
 .fourthRowMedText:hover {
     transform: scale(1.3);
-    color: rgb(214, 153, 0);
+    color: rgb(93, 0, 214);
     text-shadow:
         -1px -1px 0 whitesmoke,
         1px -1px 0 whitesmoke,
@@ -82,7 +82,7 @@
 }
 .largeMiddleFont:hover {
     transform: scale(1.3);
-    color: rgb(127, 3, 3);
+    color: rgb(186, 11, 192);
     text-shadow:
         -1px -1px 0 whitesmoke,
         1px -1px 0 whitesmoke,
@@ -97,7 +97,7 @@
 }
 .fifthRowMedText:hover {
     transform: scale(1.3);
-    color: rgb(0, 214, 157);
+    color: rgb(0, 146, 214);
     text-shadow:
         -1px -1px 0 whitesmoke,
         1px -1px 0 whitesmoke,
@@ -114,7 +114,7 @@
 }
 .sixthLargeText:hover {
     transform: scale(1.3);
-    color: rgb(214, 0, 92);
+    color: rgb(214, 0, 143);
     text-shadow:
         -1px -1px 0 whitesmoke,
         1px -1px 0 whitesmoke,
@@ -130,7 +130,7 @@
 }
 .sixthS1Text:hover {
     transform: scale(1.3);
-    color: rgb(90, 9, 188);
+    color: rgb(9, 66, 188);
     text-shadow:
         -1px -1px 0 whitesmoke,
         1px -1px 0 whitesmoke,
@@ -145,7 +145,7 @@
 }
 .sixthS2Text:hover {
     transform: scale(1.3);
-    color: rgb(182, 188, 9);
+    color: rgb(133, 67, 187);
     text-shadow:
         -1px -1px 0 whitesmoke,
         1px -1px 0 whitesmoke,
@@ -161,7 +161,7 @@
 }
 .lastRowText:hover {
     transform: scale(1.3);
-    color: rgb(162, 238, 22);
+    color: rgb(89, 114, 224);
     text-shadow:
         -1px -1px 0 whitesmoke,
         1px -1px 0 whitesmoke,
@@ -180,7 +180,7 @@
 }
 .middleSide:hover {
     transform: scale(1.3);
-    color: rgb(243, 59, 13);
+    color: rgb(40, 155, 201);
     text-shadow:
         -1px -1px 0 whitesmoke,
         1px -1px 0 whitesmoke,

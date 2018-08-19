@@ -1,0 +1,40 @@
+.backgroundSQ {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(45deg) translateY(-50%) translateX(-30%);
+    width: 20em;
+    height: 20em;
+    background-color: rgba(0, 204, 255, 0.377);
+    border-radius: .5em;
+}
+
+.backgroundSQ2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(45deg) translateX(-80%);
+    width: 30em;
+    height: 30em;
+    background-color: rgba(30, 0, 200, 0.4);
+}
+
+.backgroundSQ3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(45deg) translateY(-50%);
+    width: 20em;
+    height: 20em;
+    background-color: rgba(107, 17, 226, 0.4);
+}
+
+.backgroundSQ4 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(45deg) translate(-50%, 40%);
+    width: 40em;
+    height: 40em;
+    background-color: rgba(14, 209, 209, 0.411)
+}
