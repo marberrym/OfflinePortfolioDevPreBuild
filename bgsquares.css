@@ -1,5 +1,5 @@
 .backgroundSQ {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     transform: rotate(45deg) translateY(-50%) translateX(-30%);
@@ -7,10 +7,12 @@
     height: 20em;
     background-color: rgba(0, 204, 255, 0.377);
     border-radius: .5em;
+    z-index: -1;
 }
 
 .backgroundSQ2 {
-    position: absolute;
+    z-index: -1;
+    position: fixed;
     left: 0;
     top: 0;
     transform: rotate(45deg) translateX(-80%);
@@ -20,7 +22,8 @@
 }
 
 .backgroundSQ3 {
-    position: absolute;
+    z-index: -1;
+    position: fixed;
     left: 0;
     top: 0;
     transform: rotate(45deg) translateY(-50%);
@@ -30,7 +33,8 @@
 }
 
 .backgroundSQ4 {
-    position: absolute;
+    z-index: -1;
+    position: fixed;
     left: 0;
     top: 0;
     transform: rotate(45deg) translate(-50%, 40%);
@@ -40,7 +44,8 @@
 }
 
 .backgroundSQ5 {
-    position: absolute;
+    z-index: -1;
+    position: fixed;
     left: 0;
     top: 0;
     transform: translate(-80%, 35%) rotate(45deg);
@@ -50,7 +55,8 @@
 }
 
 .backgroundSQ6 {
-    position: absolute;
+    z-index: -1;
+    position: fixed;
     left: 0;
     top: 0;
     transform: translate(-80%, 120%) rotate(45deg);
