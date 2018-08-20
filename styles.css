@@ -57,10 +57,14 @@ html body {
 .projectItem {
     background-color: blue; 
     margin: 2em;
-    padding: 2em;
-    height: 8em;
+    height: 12em;
     width: 8em;
-    flex-basis: 40%;
+    border-radius: .3em;
+    flex-basis: 70%;
+}
+
+.projectItem:hover {
+    opacity: .6;
 }
 
 .projectPage {
@@ -72,8 +76,7 @@ html body {
 @media only screen and (min-width: 500px) {
     .projectItem {
         flex-basis: 45%;
-        height: 10em;
-        width: 10em;
+        height: 13em;
     }
 }
 
