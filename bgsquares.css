@@ -38,3 +38,23 @@
     height: 40em;
     background-color: rgba(14, 209, 209, 0.411)
 }
+
+.backgroundSQ5 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-80%, 35%) rotate(45deg);
+    width: 30em;
+    height: 40em;
+    background-color: rgba(107, 17, 226, 0.4);
+}
+
+.backgroundSQ6 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-80%, 120%) rotate(45deg);
+    width: 30em;
+    height: 30em;
+    background-color: rgba(3, 194, 153, 0.377);
+}
