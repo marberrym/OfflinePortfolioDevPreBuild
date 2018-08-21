@@ -30,9 +30,11 @@
 
 .modalBox {
     position: fixed;
-    left: 5%;
-    top: 15%;
-    height: 70%;
+    left: 0;
+    top: 0;
+    transition: all 2s ease-in-out;
+    transform: translate(5%, 15%);
+    height: 80%;
     width: 90%;
     background-color: white;
     border-radius: .2em;
@@ -44,14 +46,16 @@
 
 @media only screen and (min-width: 1000px) {
     .modalBox {
-        left: 15%;
-        width: 70%;
+        transform: translate(15%, 20%);
+        width: 80%;
+        height: 70%;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .modalBox {
-        left: 25%;
-        width: 50%;
+        transform: translate(25%, 30%);
+        width: 70%;
+        height: 60%;
     }
 }
