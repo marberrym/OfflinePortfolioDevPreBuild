@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="navBar.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="modal.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="bgsquares.css" />
-    <link rel="icon" type="image/png" href="../PortfolioFD/images/MMLogo.png">
+    <link rel="icon" type="image/png" href="../PortfolioFD/images/MMLogoColored.png">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Abril+Fatface|Oleo+Script+Swash+Caps" rel="stylesheet">
@@ -164,25 +164,32 @@
         </div>
     </div>
     <div class="newPage">
-        <div style="font-size: 2em; margin-top: 5%">More About Me</div>
-        <div class="flexColumn" style="justify-content: space-around; ">
-            <div class="flexColumn column marginTop2 basis30">
-                <img style=" width: 90%; padding: 1em; flex-basis: 30%; border-radius: 2em;" src="../PortfolioFD/images/portfolioPic.jpg">
-            </div>
-            <div class="flexColumn marginTop2 column basis30">
-                <div>
-                    <p>Hello there, my name is Matthew Marberry and I'm an aspiring software developer!</p>
-                    <p>
-                        First and foremost, thank you for taking the time to view my portfolio
-                        I'd love to let you know a little bit more about me.
-                    </p>
-                    <p>blablahblah</p>
+        <div class="flexColumn column">
+            <h1 style="font-size: 2.5em; margin-top: 5%">More About Me</h1>
+            <div class="flexColumn" style="justify-content: space-around; ">
+                <div class="flexColumn column marginTop2 basis30">
+                    <img style=" width: 90%; padding: 1em; flex-basis: 30%; border-radius: 2em;" src="../PortfolioFD/images/portfolioPic.jpg">
                 </div>
+                <div class="flexColumn marginTop2 column basis45">
+                    <div>
+                        <p>Hello there, my name is Matthew Marberry and I'm an aspiring software developer!</p>
+                        <p>
+                            First and foremost, thank you for taking the time to view my portfolio
+                            I'd love to let you know a little bit more about me.
+                        </p>
+                        <p>blablahblah</p>
+                    </div>
+                </div>
+                
             </div>
-            <div class="flexColumn justifyCenter marginTop2 alignCenter basis30">
-                <div class="flexColumn column justifyCenter alignStart">
-                    <div class="fontSize15">What I know:</div>
-                    <i class="fab fa-python fa-2x basis25 aboutIcon"><label class="iconLabel"> Python</label></i>
+            <div class="flexColumn justifyCenter marginTop2 alignCenter basis30 column">
+                <div class="fontSize15">What I'm learning:</div>
+                <div id="desiredSkillsFlex" class="flexColumn alignStart justifyCenter">
+                    <i class="devicon-ruby-plain fa-2x aboutIcon"><label  class="iconLabel"> Ruby</label></i>   
+                </div>
+                <div class="fontSize15 marginTop2">What I know:</div>
+                <div id="skillsFlex" class="flexColumn justifyCenter alignStart basis80">
+                    <i class="fab fa-python fa-2x aboutIcon"><label class="iconLabel"> Python</label></i>
                     <i class="fab fa-js fa-2x aboutIcon"><label  class="iconLabel"> JavaScript</label></i>
                     <i class="fab fa-html5 fa-2x aboutIcon"><label  class="iconLabel"> HTML5</label></i>
                     <i class="fab fa-css3 fa-2x aboutIcon"><label  class="iconLabel"> CSS3</label></i>
@@ -198,16 +205,13 @@
                     <i class="devicon-jquery-plain fa-2x aboutIcon"><label  class="iconLabel"> JQuery</label></i>
                     <i class="devicon-postgresql-plain fa-2x aboutIcon"><label class="iconLabel"> Postgresql</label></i>
                 </div>
-                <div class="flexColumn column alignStart justifyCenter">
-                    <div class="fontSize15">What I'm learning:</div>
-                    <i class="devicon-ruby-plain fa-2x aboutIcon"><label  class="iconLabel"> Ruby</label></i>
-                    <div class="fontSize15 marginTop2">What I'd like to learn:</div>
+                <div class="fontSize15 marginTop2">What I'd like to learn:</div>
+                <div class="flexColumn alignStart justifyCenter">
                     <i class="devicon-angularjs-plain fa-2x aboutIcon"><label  class="iconLabel"> Angular.JS</label></i>
                     <i class="devicon-rails-plain fa-2x aboutIcon"><label  class="iconLabel"> Rails</label></i>
                     <i class="devicon-amazonwebservices-plain fa-2x aboutIcon"><label  class="iconLabel"> Amazon Web Services</label></i>
                     <i class="devicon-csharp-plain fa-2x aboutIcon"><label  class="iconLabel"> CSharp</label></i>
                     <i class="devicon-php-plain fa-2x aboutIcon"><label  class="iconLabel"> PHP</label></i>
-                    
                 </div>
             </div>
         </div>
