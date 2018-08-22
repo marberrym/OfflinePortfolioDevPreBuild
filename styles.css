@@ -38,12 +38,12 @@ html body {
     align-items: center;
     flex-shrink: 1;
     z-index: 1;
+    flex-basis: 95%;
 }
 
 .flexRSide {
     display: flex;
     flex-basis: 17%;
-    justify-content: flex-end;
     align-items: center;
 }
 
@@ -121,7 +121,71 @@ html body {
     flex-basis: 25%;
 }
 
+.aboutIcon{
+    margin: .2em;
+
+}
 .aboutIcon:hover{
     color: rgba(107, 17, 226, 0.9);
     transition: .5s ease-in-out;
+    transform: scale(1.5) translateX(-.5em);
 }
+
+.column{
+    flex-direction: column;
+}
+.justifyEnd {
+    justify-content: flex-end;
+}
+.justifyCenter {
+    justify-content: center;
+}
+.alignEnd {
+    align-items: flex-end;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.alignStart {
+    align-items: flex-start;
+}
+
+.basis13 {
+    flex-basis: 13%;
+}
+.basis100 {
+    flex-basis: 100%;
+}
+
+.fontSize15 {
+    font-size: 1.5em;
+}
+
+.flex {
+    display: flex;
+}
+
+.reliableText {
+    font-family: 'Oleo Script Swash Caps', cursive; 
+    font-size: 2em; 
+    line-height: 1.5em;
+}
+.lineH90 {
+    line-height: 90%;
+}
+
+.basis30 {
+    flex-basis: 30%;
+}
+
+.marginTop2 {
+    margin-top: 2em;
+}
+
+.iconLabel {
+    font-family: 'Oswald', sans-serif;
+    font-size: .5em;
+}
+
