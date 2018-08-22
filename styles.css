@@ -22,6 +22,7 @@ html body {
     display: flex;
     justify-content: center;
     align-content: center;
+    flex-direction: column;
 }
 
 .flexColumn {
@@ -150,6 +151,10 @@ html body {
     margin-top: 2em;
 }
 
+.flexWrap {
+    flex-wrap: wrap;
+}
+
 .iconLabel {
     font-family: 'Oswald', sans-serif;
     font-size: .5em;
@@ -164,17 +169,39 @@ html body {
 }
 /* Responsiveness */
 
+#LeftColumn {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    order: 2;
+    margin-top: 1.5em;
+}
+
+#aboutContent {
+    flex-direction: column;
+}
+
 @media only screen and (min-width: 500px) {
-    
     .projectItem {
         flex-basis: 45%;
         height: 13em;
     }
+    #aboutContent {
+        flex-direction: row
+    }
 }
 
 @media only screen and (min-width: 768px) {
+    .animePanel {
+        flex-direction: row;
+        justify-content: center;
+    }
     #LeftColumn {
         display: flex;
+        flex-basis: 45%;
+        order: 0;
+        align-items: flex-end;
+        margin-top: 0;
     }
     .projectItem {
         flex-basis: 40%;
@@ -184,6 +211,9 @@ html body {
 }
 
 @media only screen and (min-width: 1000px) {
+    #LeftColumn {
+        flex-basis: 30%;
+    }
     #RightColumn {
         display: flex;
     }
