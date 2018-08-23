@@ -10,13 +10,8 @@ let projects = document.querySelectorAll(".projectItem");
 let modal = document.querySelector(".modalWindow");
 let visibleModal = document.querySelector("#modalFlexOne");
 let modalTitle = document.querySelector("#modalFlexTwo");
+let modalCloseBTN = document.querySelector(".closeX");
 
-
-let hideModal = (event) => {
-    if (event.target === modal) {
-        modal.classList.remove("showModal");
-    }
-}
 
 projects.forEach(function(project) {
     let modalPopup = function (event) {
@@ -24,6 +19,14 @@ projects.forEach(function(project) {
         visibleModal.appendChild(modalIMG);
         modalTitle.appendChild(title);
         modalTitle.appendChild(description);
+    }
+    let hideModal = (event) => {
+        if (event.target === modal || event.target === modalCloseBTN) {
+            visibleModal.removeChild(modalIMG);
+            modalTitle.removeChild(title);
+            modalTitle.removeChild(description);
+            modal.classList.remove("showModal");
+        }
     }
     
     let modalIMG = document.createElement('img');
@@ -37,7 +40,7 @@ projects.forEach(function(project) {
     modalIMG.setAttribute('src', imgSRC);
     modalIMG.classList.add('modalIMG');
     project.addEventListener('click', modalPopup);
+    window.addEventListener('click', hideModal);
 })
 
-window.addEventListener('click', hideModal);
 

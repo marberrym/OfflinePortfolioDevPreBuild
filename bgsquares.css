@@ -18,6 +18,7 @@
     transform: rotate(45deg) translateX(-80%);
     width: 30em;
     height: 30em;
+    border-radius: .5em;
     background-color: rgba(30, 0, 200, 0.4);
 }
 
@@ -29,6 +30,7 @@
     transform: rotate(45deg) translateY(-50%);
     width: 20em;
     height: 20em;
+    border-radius: .5em;
     background-color: rgba(107, 17, 226, 0.4);
 }
 
@@ -40,6 +42,7 @@
     transform: rotate(45deg) translate(-50%, 40%);
     width: 40em;
     height: 40em;
+    border-radius: .5em;
     background-color: rgba(14, 209, 209, 0.411)
 }
 
@@ -51,6 +54,7 @@
     transform: translate(-80%, 35%) rotate(45deg);
     width: 30em;
     height: 40em;
+    border-radius: .5em;
     background-color: rgba(107, 17, 226, 0.4);
 }
 
@@ -62,5 +66,6 @@
     transform: translate(-80%, 120%) rotate(45deg);
     width: 30em;
     height: 30em;
+    border-radius: .5em;
     background-color: rgba(3, 194, 153, 0.377);
 }

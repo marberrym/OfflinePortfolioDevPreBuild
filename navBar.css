@@ -11,3 +11,21 @@
     border: 1px solid black;
     background: whitesmoke;
 }
+
+.navBTNS {
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.navBTNS:hover {
+    color: rgba(107, 17, 226, 0.4)
+}
+
+.navLogo {
+    height: 2.7em; 
+    opacity: .6;
+}
+
+.navLogo:hover {
+    opacity: 1;
+}
