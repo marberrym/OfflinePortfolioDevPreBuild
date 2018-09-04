@@ -20,7 +20,7 @@
 
 .modalWindow {
     opacity: 0;
-    z-index: 5;
+    z-index: 3;
     position: fixed;
     left: 0;
     right: 0;
@@ -35,13 +35,13 @@
     opacity: 0;
     left: 20%;
     top: 25%;
-    transform: translateX(-100%);
+    transform: translateY(-100%);
     position: absolute;
     pointer-events: none;
     height: 50%;
     width: 60%;
     background: radial-gradient(circle, rgba(177,176,179,1) 20%, rgba(237,229,241,1) 100%);
-    border-radius: .4em;
+    border-radius: 1em;
     transition: .5s ease-in-out;
 }
 
@@ -50,6 +50,14 @@
     pointer-events: all;
     opacity: 1;
     pointer-events: auto;
+}
+
+.scrollRight {
+    transform: translateX(100%);
+}
+
+.scrollLeft {
+    transform: translateX(-100%);
 }
 
 .closeX {
@@ -64,16 +72,68 @@
 
 .leftArw {
     position: absolute;
-    top: 80%;
-    left: 42%;
-    color: rgb(82, 132, 211);
+    top: 40%;
+    left: -10%;
+    color: whitesmoke;
+    opacity: .8;
+    z-index: 4;
+    transition: .3s ease-in-out;
+}
+
+.leftArw:hover {
+    color: rgb(4, 107, 133);
+    transform: scale(1.2);
+    opacity: 1;
 }
 
 .rightArw {
-    position: absolute;
-    top: 80%;
-    right: 42%;
-    color: rgb(82, 132, 211);
+    position: fixed;
+    top: 40%;
+    right: -10%;
+    color: whitesmoke;
+    opacity: .8;
+    z-index: 4;
+    transition: .3s ease-in-out;
+}
+
+.hideArrow {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.rightArw:hover {
+    color: rgba(4, 107, 133);
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+
+
+.outlineBlack {
+    text-shadow: 1px 1px 0 #000,
+        -1px 1px 0 #000,
+        1px -1px 0 #000,
+        -1px -1px 0 #000,
+        0px 1px 0 #000,
+        0px -1px 0 #000,
+        -1px 0px 0 #000,
+        1px 0px 0 #000,
+        2px 2px 0 #000,
+        -2px 2px 0 #000,
+        2px -2px 0 #000,
+        -2px -2px 0 #000,
+        0px 2px 0 #000,
+        0px -2px 0 #000,
+        -2px 0px 0 #000,
+        2px 0px 0 #000,
+        1px 2px 0 #000,
+        -1px 2px 0 #000,
+        1px -2px 0 #000,
+        -1px -2px 0 #000,
+        2px 1px 0 #000,
+        -2px 1px 0 #000,
+        2px -1px 0 #000,
+        -2px -1px 0 #000;
 }
 
 

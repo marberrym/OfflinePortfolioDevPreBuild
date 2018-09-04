@@ -59,7 +59,7 @@ html body {
     margin: 2em;
     height: 12em;
     width: 8em;
-    border-radius: .3em;
+    border-radius: 1em;
     flex-basis: 70%;
 }
 
@@ -85,16 +85,19 @@ html body {
 }
 
 .aboutIcon{
-    padding: .2em;
+    padding: .05em;
+    transform: scale(.8);
+    transition: .3s ease-in-out;
+    opacity: .7;
 
 }
 .aboutIcon:hover{
-    color: rgba(107, 17, 226, 0.9);
+    opacity: 1;
+    color: rgba(2, 6, 216);
     z-index: 1;
     position: relative;
-    transition: .5s ease-in-out;
     border-radius: .2em;
-    background-color: rgba(245, 245, 245, 0.922);
+    transform: scale(1.2);
 }
 
 .column{
