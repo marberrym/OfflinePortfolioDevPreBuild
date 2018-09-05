@@ -63,6 +63,11 @@
     width: 10em;
 }
 
+.hga {
+    height: 10em;
+    width: 20em;
+}
+
 .showModal {
     transform: translateX(0);
     pointer-events: all;
@@ -175,6 +180,10 @@
         height: 12em;
         width: 12em;
     }
+    .hga {
+        height: 12em;
+        width: 24em;
+    }
 }
 
 @media only screen and (min-width: 760px) {
@@ -191,6 +200,10 @@
         height: 15em;
         width: 15em;
     }
+    .hga {
+        height: 15em;
+        width: 30em;
+    }
 
 }
 
@@ -198,6 +211,10 @@
     .graphicImage {
         height: 20em;
         width: 20em;
+    }
+    .hga {
+        height: 20em;
+        width: 40em;
     }
 
 }

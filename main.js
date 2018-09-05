@@ -20,8 +20,12 @@ graphicD.forEach(function(image) {
         let modalImg = document.createElement('img');
         
         modalImg.setAttribute('src', src);
-        modalImg.classList.add('graphicImage');
         graphicModal.appendChild(modalImg);
+        if (src.endsWith('Text.png')) {
+            modalImg.classList.add('hga');
+        } else {
+            modalImg.classList.add('graphicImage');
+        }
         modalWindow.classList.add('showModal');
         graphicModal.classList.add('showModal');
     }
