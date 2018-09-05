@@ -8,8 +8,31 @@ let modalCloseBTN = document.querySelectorAll(".closeX");
 let leftArws = document.querySelectorAll(".leftArw");
 let rightArws = document.querySelectorAll(".rightArw");
 let modals = document.querySelectorAll(".modalBox");
+let graphicD = document.querySelectorAll(".gdImg");
+let graphicModal = document.querySelector(".graphicModal");
 
 
+
+
+graphicD.forEach(function(image) {
+    let showDesign = () => {
+        let modalImg = document.createElement('img');
+        let src = image.getAttribute('src');
+        modalImg.setAttribute('src', src);
+        modalImg.classList.add('graphicImage');
+        graphicModal.appendChild(modalImg);
+        modalWindow.classList.add('showModal');
+        graphicModal.classList.add('showModal');
+
+    }
+    image.addEventListener('click', showDesign); 
+})
+
+let emptyGraphic = () => {
+    while (graphicModal.firstChild) {
+        graphicModal.removeChild(graphicModal.firstChild);
+    }
+}
 
 
 
@@ -82,6 +105,8 @@ modals.forEach(function(modal) {
             projectTwo.classList.remove("showModal");
             projectThree.classList.remove("showModal");
             projectFour.classList.remove("showModal");
+            graphicModal.classList.remove("showModal");
+            emptyGraphic();
         } else {
             modalCloseBTN.forEach(function(button) {
                 if (event.target === button) {
@@ -90,6 +115,7 @@ modals.forEach(function(modal) {
                     projectTwo.classList.remove("showModal");
                     projectThree.classList.remove("showModal");
                     projectFour.classList.remove("showModal");
+                    emptyGraphic();
                 }
             })
         }
