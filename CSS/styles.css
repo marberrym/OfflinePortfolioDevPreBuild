@@ -164,6 +164,12 @@ html body {
 .iconLabel {
     font-family: 'Oswald', sans-serif;
     font-size: .5em;
+    display: none;
+}
+
+.iconLabel:hover {
+    display: block;
+    z-index: 1;
 }
 
 .basis45 {
