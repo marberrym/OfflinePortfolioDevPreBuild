@@ -10,7 +10,7 @@ html body {
 }
 
 .pageOne {
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     overflow: hidden;
 }
@@ -151,6 +151,10 @@ html body {
 
 .marginTop2 {
     margin-top: 2em;
+}
+
+.marginTop1 {
+    margin-top:1em;
 }
 
 .flexWrap {
