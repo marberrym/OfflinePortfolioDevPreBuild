@@ -189,6 +189,11 @@ html body {
     margin-top: 1.5em;
 }
 
+.gdImg {
+    width: 10%;
+    height: 10%;
+}
+
 #aboutContent {
     flex-direction: column;
 }
@@ -243,4 +248,6 @@ html body {
         width: 20em;
     }
 }
+
+
 
