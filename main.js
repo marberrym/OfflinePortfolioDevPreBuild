@@ -14,17 +14,19 @@ let graphicModal = document.querySelector(".graphicModal");
 
 
 
+
 graphicD.forEach(function(image) {
     let showDesign = () => {
         let modalImg = document.createElement('img');
-        let src = image.getAttribute('src');
+        
         modalImg.setAttribute('src', src);
         modalImg.classList.add('graphicImage');
         graphicModal.appendChild(modalImg);
         modalWindow.classList.add('showModal');
         graphicModal.classList.add('showModal');
-
     }
+    let src = image.getAttribute('src');
+    
     image.addEventListener('click', showDesign); 
 })
 

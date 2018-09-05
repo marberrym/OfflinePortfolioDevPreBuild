@@ -19,13 +19,12 @@
 <body>
     <!--Modal Box-->
     <div class="modalWindow">
-        <div id="graphicModal" class="graphicModal">
-            Heyheyhey
+        <div id="graphicModal" class="graphicModal alignCenter">
+            
+            
         </div>
         <div id="projectOne" class="modalBox">
-            <div style="text-align: right;">
-                <i class="far fa-times-circle fa-2x closeX"></i>
-            </div>
+            <i class="far fa-times-circle fa-2x closeX"></i>
             <div class="modalFlex">
                 <div class="modalFlexC">
                     <img src='images/plunder.png' class="modalIMG">
@@ -37,9 +36,7 @@
             </div>
         </div>
         <div id="projectTwo" class="modalBox">
-            <div style="text-align: right;">
-                <i class="far fa-times-circle fa-2x closeX"></i>
-            </div>
+            <i class="far fa-times-circle fa-2x closeX"></i>
             <div class="modalFlex">
                 <div class="modalFlexC" style="padding: 1em;">
                     <img src='images/hiddengem.png' class="modalIMG">
@@ -50,9 +47,7 @@
             </div>
         </div>
         <div id="projectThree" class="modalBox">
-            <div style="text-align: right;">
-                <i class="far fa-times-circle fa-2x closeX"></i>
-            </div>
+            <i class="far fa-times-circle fa-2x closeX"></i>
             <div class="modalFlex">
                 <div class="modalFlexC">
                     <img src='images/Flutter.jpg' class="modalIMG">
@@ -64,9 +59,7 @@
             </div>
         </div>
         <div id="projectFour" class="modalBox">
-            <div style="text-align: right;">
                 <i class="far fa-times-circle fa-2x closeX"></i>
-            </div>
             <div class="modalFlex">
                 <div class="modalFlexC">
                     <img src='images/MillionsKnives.png' class="modalIMG">
@@ -83,10 +76,10 @@
     <!--Nav Bar-->
     <div class="navBar">
         <img src="../PortfolioFD/images/MMLogoColored.png" class="navLogo">
-        <div class="navBTNS">About</div>
-        <div class="navBTNS">Projects</div>
+        <a href="#moreAboutMe" style="color: black; text-decoration: none;"><div class="navBTNS">About</div></a>
+        <a href="#projects"><div class="navBTNS">Projects</div></a>
         <div class="navBTNS">Blog</div>
-        <div class="navBTNS">Contact</div>
+        <a href="mailto:marberrym@gmail.com?subject=Hey I checked out your portfolio and..." style="color: black; text-decoration: none;"><div class="navBTNS">Contact</div></a>
     </div>
 
     <!--Left column for the animation flex-->
@@ -200,12 +193,12 @@
             </div>
         </div>
     </div>
-    <div class="newPage">
+    <div class="newPage" id="projects">
             <div class="backgroundSQ" style="transform: translateY(210%) translateX(-50%) scale(2.0) rotate(45deg); z-index: -1;"></div>
             <div class="backgroundSQ5"></div>
             <div class="backgroundSQ6"></div>
        
-        <h1>PROJECTS.</h1>  
+        <h1 style="margin-top: 5%;">PROJECTS.</h1>  
         <div class="projectPage">
             <img class="projectItem" src="images/plunder.png">
             <img class="projectItem" src="images/hiddengem.png">
@@ -213,7 +206,7 @@
             <img class="projectItem" src="images/MillionsKnives.png">
         </div>
     </div>
-    <div class="newPage">
+    <div class="newPage" id="moreAboutMe">
         <div class="flexColumn column">
             <h1 style="font-size: 2.5em; margin-top: 5%">More About Me</h1>
             <div id="aboutContent" class="flexColumn" style="justify-content: space-around; ">
@@ -237,13 +230,13 @@
                         </p>
                     </div>
                 </div>
-                <div class="flexColumn justifyCenter marginTop1 alignCenter basis30 column">
+                <div class="flexColumn justifyCenter alignCenter basis30 column">
                         <div class="fontSize15">What I'm learning:</div>
                         <div id="desiredSkillsFlex" class="flexColumn alignStart justifyCenter">
                             <i class="devicon-ruby-plain fa-2x aboutIcon"><label  class="iconLabel"> Ruby</label></i>
                             <i class="devicon-amazonwebservices-plain fa-2x aboutIcon"><label  class="iconLabel"> Amazon Web Services</label></i>   
                         </div>
-                        <div class="fontSize15 marginTop1">What I know:</div>
+                        <div class="fontSize15">What I know:</div>
                         <div id="skillsFlex" class="flexColumn justifyCenter alignStart basis80 flexWrap">
                             <div class="flexColumn column">
                                 <i class="fab fa-python fa-2x aboutIcon"><label class="iconLabel"> Python</label></i>
@@ -271,7 +264,7 @@
                                 <i class="devicon-postgresql-plain fa-2x aboutIcon"><label class="iconLabel"> PostgreSQL</label></i>
                             </div>
                         </div>
-                        <div class="fontSize15 marginTop1">What I'd like to learn:</div>
+                        <div class="fontSize15">What I'd like to learn:</div>
                         <div class="flexColumn alignStart justifyCenter flexWrap">
                             <i class="devicon-angularjs-plain fa-2x aboutIcon"><label  class="iconLabel"> Angular.js</label></i>
                             <i class="devicon-rails-plain fa-2x aboutIcon"><label  class="iconLabel"> Rails</label></i>
@@ -280,12 +273,13 @@
                         </div>
                     </div>
                 </div>
-                <h3>some graphic design work</h3>
+                <h3 style="margin-bottom: 0;">Some Graphic Design I have Recently Worked on</h3>
+                <div>Click for more info</div>
                 <div class="flexColumn">
                     <img class="gdImg" src="images/flutter.png">
                     <img class="gdImg" style="width: 20%; height: 20%;" src="images/gemBGwText.png">
                     <img class="gdImg" src="images/LHLogo.png">
-                    <img class="gdImg" src="images/MMLogoColored.png">
+                    <img class="gdImg" src="images/MMLogoBC.png">
                     <img class="gdImg" src="images/plunderLogoFinalCrop.png">
                     <img class="gdImg" src="images/Reentry2.png">
                 </div>
