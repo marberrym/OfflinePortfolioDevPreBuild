@@ -18,9 +18,11 @@ let graphicModal = document.querySelector(".graphicModal");
 graphicD.forEach(function(image) {
     let showDesign = () => {
         let modalImg = document.createElement('img');
+        let modalX = document.createElement('i');
+        let src = image.getAttribute('src');
+        modalX.classList.add('far', 'fa-times-circle', 'fa-2x', 'closeX');
         
         modalImg.setAttribute('src', src);
-        graphicModal.appendChild(modalImg);
         if (src.endsWith('Text.png')) {
             modalImg.classList.add('hga');
         } else {
@@ -28,10 +30,17 @@ graphicD.forEach(function(image) {
         }
         modalWindow.classList.add('showModal');
         graphicModal.classList.add('showModal');
+        
+        graphicModal.appendChild(modalImg);
+        graphicModal.appendChild(modalX);
+        modalX.addEventListener('click', function(event) {
+            emptyGraphic();
+            graphicModal.classList.remove('showModal');
+            modalWindow.classList.remove('showModal');
+        }); 
     }
-    let src = image.getAttribute('src');
     
-    image.addEventListener('click', showDesign); 
+    image.addEventListener('click', showDesign);
 })
 
 let emptyGraphic = () => {
@@ -131,9 +140,11 @@ modals.forEach(function(modal) {
     right.addEventListener('click', scrollRight);
     modalWindow.addEventListener('click', hideModal);
     modalCloseBTN.forEach(function(button) {
-        button.addEventListener('click', hideModal);
+    button.addEventListener('click', hideModal);
     })
 })
+
+
 
 
 

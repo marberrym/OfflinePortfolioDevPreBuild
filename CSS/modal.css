@@ -65,16 +65,19 @@
     border-radius: 1em;
     transition: .5s ease-in-out;
     display: flex;
+    justify-content: center;
 }
 
 .graphicImage {
     height: 10em;
     width: 10em;
+    margin: 2em;
 }
 
 .hga {
     height: 10em;
     width: 20em;
+    margin: 1em;
 }
 
 .showModal {
@@ -207,6 +210,8 @@
     .graphicModal {
         left: 15%;
         width: 70%;
+        justify-content: flex-start;
+        align-items: center;
     }
     .graphicImage {
         height: 15em;
@@ -240,10 +245,6 @@
     }
     .modalDescription {
         flex-basis: 45%;
-    }
-    .hga {
-        height: 20em;
-        width: 40em;
     }
     .closeX {
         left: 90%;
