@@ -172,6 +172,16 @@ html body {
     z-index: 1;
 }
 
+.pageHead {
+    margin-top: 15%;
+    margin-bottom: 0;
+}
+
+.links {
+    color: black;
+    text-decoration: none;
+}
+
 .basis45 {
     flex-basis: 65%;
 }
@@ -206,6 +216,9 @@ html body {
     #aboutContent {
         flex-direction: row
     }
+    .pageHead {
+        margin-top: 10%;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -225,6 +238,7 @@ html body {
         height: 15em;
         width: 15em;
     }
+    
 }
 
 @media only screen and (min-width: 1000px) {
@@ -239,11 +253,14 @@ html body {
         height: 20em;
         width: 20em;
     }
+    .pageHead {
+        margin-top: 5%;
+    }
     
 }
 @media only screen and (min-width: 1200px) {
     .projectItem {
-        flex-basis: 35%;
+        flex-basis: 30%;
         height: 20em;
         width: 20em;
     }

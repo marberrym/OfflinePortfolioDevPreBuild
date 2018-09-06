@@ -1,19 +1,28 @@
 .modalIMG {
-    height: 10em;
-    flex-basis: 10%;
+    height: 60%;
+    width: 100%;
+    border-radius: 1em;
 }
  
 .modalFlex {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     height: 100%;
+    flex-wrap: wrap;
+    overflow: scroll;
 }
 
 .modalFlexC {
     display: flex;
     flex-direction: column;
-    flex-basis: 30%;
-    
+    flex-basis: 90%;
+    margin-top: 2.5em;
+}
+
+.modalDescription {
+    flex-basis: 90%;
+    margin: 1em;
+    padding: 1em;
 }
 
 .modalWindow {
@@ -184,6 +193,9 @@
         height: 12em;
         width: 24em;
     }
+    .closeX {
+        left: 87%;
+    }
 }
 
 @media only screen and (min-width: 760px) {
@@ -204,6 +216,13 @@
         height: 15em;
         width: 30em;
     }
+    .modalIMG {
+        height: 70%;
+    }
+    .closeX {
+        left: 89%;
+    }
+    
 
 }
 
@@ -212,9 +231,22 @@
         height: 20em;
         width: 20em;
     }
+    .modalFlex {
+        flex-wrap: nowrap;
+    }
+    .modalFlexC {
+        flex-basis: 45%;
+        margin: 1em;
+    }
+    .modalDescription {
+        flex-basis: 45%;
+    }
     .hga {
         height: 20em;
         width: 40em;
+    }
+    .closeX {
+        left: 90%;
     }
 
 }
