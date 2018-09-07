@@ -73,7 +73,7 @@ instagram_username: jaydoee
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hydejack
+
 plugins:
   - jekyll-feed
 
