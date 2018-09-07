@@ -21,8 +21,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   The Lighthouse Mindset is a mentality I try to live my life by each day.
   Using the knowledge, wisdom and experiences I've accumulated over the
   years to share my light with others.
-baseurl: "LHM" # the subpath of your site, e.g. /blog
-url: "http://matthew-marberry.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://matthew-marberry.com/LHM" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 #Sidebar Pages

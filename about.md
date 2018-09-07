@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About LHM
-permalink: /aboutLHM/
+permalink: /LHM/about/
 ---
 <img src="/images/FullLHMLogo.png" width="100%">
 

@@ -4,4 +4,5 @@
 
 layout: home
 cover: true
+permalink: /LHM/
 ---

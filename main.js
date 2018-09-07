@@ -161,6 +161,7 @@ modals.forEach(function(modal) {
             projectThree.classList.remove("showModal");
             projectFour.classList.remove("showModal");
             graphicModal.classList.remove("showModal");
+            emptyGraphic();
         } else {
             modalCloseBTN.forEach(function(button) {
                 if (event.target === button) {
@@ -169,7 +170,7 @@ modals.forEach(function(modal) {
                     projectTwo.classList.remove("showModal");
                     projectThree.classList.remove("showModal");
                     projectFour.classList.remove("showModal");
-    
+                    emptyGraphic();
                 }
             })
         }

@@ -2,6 +2,7 @@
 layout: list
 title: Coding
 slug: coding
+permalink: /LHM/coding/
 description: >
     <span style="font-size: .9em"> _**An inside look at my venture in growing as a software developer and engineer.  Posts about my thoughts, struggles, insigts.  What I like about a given coding language, how I learned it and what I'll be learning next.**_
 menu: true

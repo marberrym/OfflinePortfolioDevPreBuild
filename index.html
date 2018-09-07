@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="CSS/navBar.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="CSS/modal.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="CSS/bgsquares.css" />
-    <link rel="icon" type="image/png" href="../PortfolioFD/images/MMLogoColored.png">
+    <link rel="icon" type="image/png" href="images/faviconMM.ico">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway|Do+Hyeon|Abril+Fatface|Oleo+Script+Swash+Caps" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -156,6 +156,7 @@
         <a class="links navBTNS" href="#projects">Projects</a>
         <a class="links navBTNS" href="http://matthew-marberry.com/LHM">Blog</a>
         <a href="mailto:marberrym@gmail.com?subject=Hey I checked out your portfolio and..." style="color: black; text-decoration: none;"><div class="navBTNS">Contact</div></a>
+        <i class="fas fa-mobile-alt links navBTNS"><span style="font-family: 'Oswald', sans-serif; padding-left: .4em; cursor: none;">770-367-5775</span></i>
     </div>
 
     <!--Left column for the animation flex-->
@@ -215,11 +216,12 @@
                 <div class="flexColumnMain">
                     <img src="images/portfolioPicedit.jpg" style="height: 18.5em; border-radius: 180px;">
                     <div style="display: flex; justify-content: center; align-items: center; margin-top: .5em;">
-                        <a href="http://www.linkedin.com/in/matthewmarberry" style="color: black;"><i class="fab fa-linkedin fa-3x lhLogo" style="padding-left: .1em; padding-right: .1em;"></i></a>
-                        <a href="http://www.github.com/marberrym" style="color: black;"><i class="fab fa-github fa-3x lhLogo" style="padding-left: .1em; padding-right: .1em;"></i></a>
-                        <a href="https://www.instagram.com/jaydoee/" style="color: black;"><i class="fab fa-instagram fa-3x lhLogo" style="padding-left: .1em; padding-right: .1em;"></i></a>
-                        <a href="mailto:marberrym@gmail.com? subject=Portfolio Feedback" style="color: black;"><i class="far fa-envelope fa-3x lhLogo" style="padding-left: .1em; padding-right: .1em;"></i></a>
-                        <img src="images/LHMSQLogo.png" class="lhLogo" style="height: 2.3em; padding-left: .4em; padding-right: .1em;">
+                        <a href="https://www.linkedin.com/in/matthewmarberry"><i class="fab fa-linkedin fa-3x lhLogo"></i></a>
+                        <a href="https://www.github.com/marberrym"><i class="fab fa-github fa-3x lhLogo"></i></a>
+                        <a href="https://www.instagram.com/jaydoee/"><i class="fab fa-instagram fa-3x lhLogo"></i></a>
+                        <a href="mailto:marberrym@gmail.com?subject=I got a chance to visit your portfolio and..."><i class="far fa-envelope fa-3x lhLogo"></i></a>
+                        <a href="https://codepen.io/Jaydoe/"><i class="fab fa-codepen fa-3x lhLogo"></i></a>
+                        <a href="https://matthew-marberry.com/LHM"><img src="images/LHMSQLogo.png" class="lhLogo blog"></a>
                     </div>
                     <div class="reliableText">Reliable Solutions for</div>
                     <div class="reliableText">Real World Problems</div>
@@ -274,7 +276,7 @@
             <div class="backgroundSQ5"></div>
             <div class="backgroundSQ6"></div>
        
-        <h1 class="pageHead">PROJECTS.</h1>  
+        <h1 class="pageHead">Current Projects</h1>  
         <div class="projectPage">
             <img class="projectItem" src="images/plunder.png">
             <img class="projectItem" src="images/hiddengem.png">
@@ -285,12 +287,12 @@
     <div class="newPage" id="moreAboutMe">
         <div class="flexColumn column">
             <h1 class="pageHead">More About Me</h1>
-            <div id="aboutContent" class="flexColumn" style="justify-content: space-around; ">
+            <div id="aboutContent" class="flexColumn alignCenter" style="justify-content: space-around; ">
                 <div class="flexColumn column marginTop2 basis30">
                     <img style=" width: 90%; padding: 1em; flex-basis: 30%; border-radius: 2em;" src="images/portfolioPic.jpg">
                 </div>
                 <div class="flexColumn marginTop2 column basis45">
-                    <div>
+                    <div class="mainText">
                         <p>Hello there, my name is Matthew Marberry and I'm an aspiring software developer!</p>
                         <p>
                             First and foremost, thank you for taking the time to view my portfolio
@@ -307,11 +309,14 @@
                     </div>
                 </div>
                 <div class="flexColumn justifyCenter alignCenter basis30 column">
+                    <div class="mainIcons">
                         <div class="fontSize15">What I'm learning:</div>
                         <div id="desiredSkillsFlex" class="flexColumn alignStart justifyCenter">
                             <i class="devicon-ruby-plain fa-2x aboutIcon"><label  class="iconLabel"> Ruby</label></i>
                             <i class="devicon-amazonwebservices-plain fa-2x aboutIcon"><label  class="iconLabel"> Amazon Web Services</label></i>   
                         </div>
+                    </div>
+                    <div class="mainIcons">
                         <div class="fontSize15">What I know:</div>
                         <div id="skillsFlex" class="flexColumn justifyCenter alignStart basis80 flexWrap">
                             <div class="flexColumn column">
@@ -340,6 +345,8 @@
                                 <i class="devicon-postgresql-plain fa-2x aboutIcon"><label class="iconLabel"> PostgreSQL</label></i>
                             </div>
                         </div>
+                    </div>
+                    <div class="mainIcons">
                         <div class="fontSize15">What I'd like to learn:</div>
                         <div class="flexColumn alignStart justifyCenter flexWrap">
                             <i class="devicon-angularjs-plain fa-2x aboutIcon"><label  class="iconLabel"> Angular.js</label></i>
@@ -348,9 +355,10 @@
                             <i class="devicon-php-plain fa-2x aboutIcon"><label  class="iconLabel"> PHP</label></i>
                         </div>
                     </div>
+                    </div>
                 </div>
-                <h3 style="margin-bottom: 0;">Some Graphic Design I have Recently Worked on</h3>
-                <div>Click for more info</div>
+                <h3 class="pageHead" style="margin-bottom: 0;">Graphic Designs</h3>
+                <div class="pageHead" style="font-size: 1.5em; margin-top: 0; margin-bottom: 1em;">Click for inpspiration insight</div>
                 <div class="flexColumn">
                     <img class="gdImg" src="images/flutter.png">
                     <img class="gdImg" style="width: 20%; height: 20%;" src="images/gemBGwText.png">

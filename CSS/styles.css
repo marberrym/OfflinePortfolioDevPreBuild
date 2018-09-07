@@ -4,17 +4,15 @@ html body {
     text-align: center;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow: scroll;
     font-family: 'Oswald', sans-serif;
     background: radial-gradient(circle, rgba(177,176,179,1) 20%, rgba(237,229,241,1) 100%);
 }
 
 .pageOne {
     height: 100%;
-    width: 100vw;
-    overflow: hidden;
+    padding-top: 5%;
 }
-
 
 .animePanel {
     margin-top: 5em;
@@ -93,7 +91,7 @@ html body {
 }
 .aboutIcon:hover{
     opacity: 1;
-    color: rgba(2, 6, 216);
+    color: rgb(3, 153, 184);
     z-index: 1;
     position: relative;
     border-radius: .2em;
@@ -140,6 +138,12 @@ html body {
     font-family: 'Oleo Script Swash Caps', cursive; 
     font-size: 2em; 
     line-height: 1.5em;
+    text-shadow:
+        -1px -1px 0 whitesmoke,
+        1px -1px 0 whitesmoke,
+        -1px 1px 0 whitesmoke,
+        1px 1px 0 whitesmoke;
+
 }
 .lineH90 {
     line-height: 90%;
@@ -175,6 +179,14 @@ html body {
 .pageHead {
     margin-top: 15%;
     margin-bottom: 0;
+    font-family: 'Oleo Script Swash Caps', cursive; 
+    font-size: 3em;
+    text-shadow:
+        -1px -1px 0 whitesmoke,
+        1px -1px 0 whitesmoke,
+        -1px 1px 0 whitesmoke,
+        1px 1px 0 whitesmoke;
+
 }
 
 .links {
@@ -206,6 +218,8 @@ html body {
 
 #aboutContent {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 @media only screen and (min-width: 500px) {
@@ -213,18 +227,21 @@ html body {
         flex-basis: 45%;
         height: 13em;
     }
-    #aboutContent {
-        flex-direction: row
-    }
     .pageHead {
         margin-top: 10%;
     }
 }
 
 @media only screen and (min-width: 768px) {
+    #aboutContent {
+        flex-direction: row
+    }
     .animePanel {
         flex-direction: row;
         justify-content: center;
+    }
+    .pageOne {
+        height: 100vh;
     }
     #LeftColumn {
         display: flex;
@@ -264,6 +281,23 @@ html body {
         height: 20em;
         width: 20em;
     }
+}
+
+.mainText {
+    padding: 2em;
+    background-color: rgba(245, 245, 245, 0.741);
+    margin: .5em;
+    border-radius: .5em;
+}
+
+.mainIcons {
+    background-color: rgba(245, 245, 245, 0.741);
+    border-radius: .5em;
+    margin-top: .5em;
+    padding-top: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: .5em;
 }
 
 
