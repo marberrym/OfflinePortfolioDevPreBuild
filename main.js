@@ -110,7 +110,6 @@ projects.forEach(function(project) {
     project.addEventListener('click', modalPopup);
 })
 
-
 modals.forEach(function(modal) {
     let left = document.createElement('i');
     let right = document.createElement('i');
@@ -153,7 +152,7 @@ modals.forEach(function(modal) {
 
     modal.appendChild(left);
     modal.appendChild(right);
-    
+
     let hideModal = (event) => { 
         if (event.target === modalWindow) {
             modalWindow.classList.remove("showModal");
@@ -162,7 +161,6 @@ modals.forEach(function(modal) {
             projectThree.classList.remove("showModal");
             projectFour.classList.remove("showModal");
             graphicModal.classList.remove("showModal");
-            emptyGraphic();
         } else {
             modalCloseBTN.forEach(function(button) {
                 if (event.target === button) {
@@ -171,7 +169,7 @@ modals.forEach(function(modal) {
                     projectTwo.classList.remove("showModal");
                     projectThree.classList.remove("showModal");
                     projectFour.classList.remove("showModal");
-                    emptyGraphic();
+    
                 }
             })
         }
