@@ -17,10 +17,20 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 <body>
-    <!--Modal Box-->
+    <!--Modal Boxes-->
     <div class="modalWindow">
+        <!-- Resume Modal -->
+        <div id="resumeModal" class="resumeBox">
+            <i class="far fa-times-circle fa-2x closeX"></i>
+            <div class="resumeFlex">
+                <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=http://matthew-marberry.com/images/Resume.pdf" class="resume">
+                <div><a href="http://matthew-marberry.com/images/Resume.pdf">Download PDF</a>.</div>
+            </div>
+        </div>
+        <!-- Graphic Modal -->
         <div id="graphicModal" class="graphicModal">  
         </div>
+        <!-- Project One Modal -->
         <div id="projectOne" class="modalBox">
             <i class="far fa-times-circle fa-2x closeX"></i>
             <div class="modalFlex">
@@ -52,6 +62,7 @@
                 </div>
             </div>
         </div>
+        <!-- Project Two Modal -->
         <div id="projectTwo" class="modalBox">
             <i class="far fa-times-circle fa-2x closeX"></i>
             <div class="modalFlex">
@@ -84,6 +95,7 @@
                 </div>
             </div>
         </div>
+        <!-- Project Three Modal -->
         <div id="projectThree" class="modalBox">
             <i class="far fa-times-circle fa-2x closeX"></i>
             <div class="modalFlex">
@@ -115,6 +127,7 @@
                 </div>
             </div>
         </div>
+        <!-- Project Four Modal -->
         <div id="projectFour" class="modalBox">
                 <i class="far fa-times-circle fa-2x closeX"></i>
             <div class="modalFlex">
@@ -225,6 +238,7 @@
                     </div>
                     <div class="reliableText">Reliable Solutions for</div>
                     <div class="reliableText">Real World Problems</div>
+                    <button id="resumeBTN" class="resumeBTN">My Resume</button>
                 </div>
             </div>
             
@@ -270,6 +284,7 @@
                 </div>
             </div>
         </div>
+        
     </div>
     <div class="newPage" id="projects">
             <div class="backgroundSQ" style="transform: translateY(210%) translateX(-50%) scale(2.0) rotate(45deg); z-index: -1;"></div>

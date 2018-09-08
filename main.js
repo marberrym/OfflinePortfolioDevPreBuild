@@ -10,8 +10,15 @@ let rightArws = document.querySelectorAll(".rightArw");
 let modals = document.querySelectorAll(".modalBox");
 let graphicD = document.querySelectorAll(".gdImg");
 let graphicModal = document.querySelector(".graphicModal");
+let resumeBTN = document.querySelector("#resumeBTN");
+let resumeModal = document.querySelector("#resumeModal");
 
+let showResume = (event) => {
+    modalWindow.classList.add('showModal');
+    resumeModal.classList.add('showModal');
+}
 
+resumeBTN.addEventListener('click', showResume);
 
 
 
@@ -153,24 +160,24 @@ modals.forEach(function(modal) {
     modal.appendChild(left);
     modal.appendChild(right);
 
+    let clear = () => {
+        modalWindow.classList.remove("showModal");
+        projectOne.classList.remove("showModal");
+        projectTwo.classList.remove("showModal");
+        projectThree.classList.remove("showModal");
+        projectFour.classList.remove("showModal");
+        graphicModal.classList.remove("showModal");
+        resumeModal.classList.remove("showModal");
+        emptyGraphic();
+    }
+
     let hideModal = (event) => { 
         if (event.target === modalWindow) {
-            modalWindow.classList.remove("showModal");
-            projectOne.classList.remove("showModal");
-            projectTwo.classList.remove("showModal");
-            projectThree.classList.remove("showModal");
-            projectFour.classList.remove("showModal");
-            graphicModal.classList.remove("showModal");
-            emptyGraphic();
+            clear();
         } else {
             modalCloseBTN.forEach(function(button) {
                 if (event.target === button) {
-                    modalWindow.classList.remove("showModal");
-                    projectOne.classList.remove("showModal");
-                    projectTwo.classList.remove("showModal");
-                    projectThree.classList.remove("showModal");
-                    projectFour.classList.remove("showModal");
-                    emptyGraphic();
+                    clear();
                 }
             })
         }

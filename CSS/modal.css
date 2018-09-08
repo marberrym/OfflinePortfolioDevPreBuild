@@ -50,6 +50,35 @@
     transition: .5s ease-in-out;
 }
 
+.resumeBox {
+    opacity:0;
+    left: 5%;
+    top: 20%;
+    transform: translateY(-100%);
+    position: absolute;
+    pointer-events: none;
+    height: 60%;
+    width: 90%;
+    background: radial-gradient(circle, rgba(177,176,179,1) 20%, rgba(237,229,241,1) 100%);
+    border-radius: 1em;
+    transition: .5s ease-in-out;
+}
+
+.resume {
+    width: 70%;
+    height: 70%;
+    flex-basis: 60%;
+}
+
+.resumeFlex {
+    display: flex;
+    margin: 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
 .graphicModal {
     opacity: 0;
     left: 5%;
@@ -186,6 +215,10 @@
         width: 80%;
         height: 70%;
     }
+    .resumeBox {
+        left: 15%;
+        width: 70%;
+    }
     .graphicModal {
         left: 10%;
         width: 80%;
@@ -239,6 +272,10 @@
     }
     .modalFlex {
         flex-wrap: nowrap;
+    }
+    .resumeBox {
+        left: 20%;
+        width: 60%;
     }
     .modalFlexC {
         flex-basis: 45%;
