@@ -38,6 +38,6 @@ Having a symmetrical design element to my portfolio was important to me, because
 
 Throughout my portfolio I make use of modal boxes quite a bit.  I use them to show off my resume, projects as well as graphic design skills.
 
-<img src="markdownimages/PortfolioGraphic.png" width="250"> <img src="markdownimages/PortfolioProject.png" width="250"> <img src="markdownimages/PortfolioResume.png" width="250">
+<img src="markdownimages/PortfolioGraphic.png" height="250"> <img src="markdownimages/PortfolioProject.png" height="250"> <img src="markdownimages/PortfolioResume.png" height="250">
       
 [1]: https://www.matthew-marberry.com
