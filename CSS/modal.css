@@ -29,8 +29,6 @@
     opacity: 0;
     z-index: 3;
     position: fixed;
-    left: 0;
-    right: 0;
     width: 100%;
     height: 100%;
     pointer-events: none;
@@ -39,6 +37,7 @@
 }
 
 .modalBox {
+    border: 2px solid black;
     opacity: 0;
     left: 5%;
     top: 10%;
@@ -52,7 +51,38 @@
     transition: .5s ease-in-out;
 }
 
+.resumeBox {
+    border: 2px solid black;
+    opacity:0;
+    left: 5%;
+    top: 20%;
+    transform: translateY(-100%);
+    position: absolute;
+    pointer-events: none;
+    height: 60%;
+    width: 90%;
+    background: radial-gradient(circle, rgba(177,176,179,1) 20%, rgba(237,229,241,1) 100%);
+    border-radius: 1em;
+    transition: .5s ease-in-out;
+}
+
+.resume {
+    width: 70%;
+    height: 70%;
+    flex-basis: 60%;
+}
+
+.resumeFlex {
+    display: flex;
+    margin: 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
 .graphicModal {
+    border: 2px solid black;
     opacity: 0;
     left: 5%;
     bottom: -2%;
@@ -151,7 +181,19 @@
     opacity: 1;
 }
 
+.modalLink {
+    font-size: 1.5em;
+    padding: 0;
+}
 
+.sticky {
+    position: sticky;
+    top: 1em;
+}
+
+.pad0 {
+    padding: 0;
+}
 
 .outlineBlack {
     text-shadow: 1px 1px 0 #000,
@@ -187,6 +229,10 @@
         top: 20%;
         width: 80%;
         height: 70%;
+    }
+    .resumeBox {
+        left: 15%;
+        width: 70%;
     }
     .graphicModal {
         left: 10%;
@@ -241,6 +287,10 @@
     }
     .modalFlex {
         flex-wrap: nowrap;
+    }
+    .resumeBox {
+        left: 20%;
+        width: 60%;
     }
     .modalFlexC {
         flex-basis: 45%;

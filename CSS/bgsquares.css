@@ -10,6 +10,11 @@
     z-index: -1;
 }
 
+.SQ7 {
+    transform: translateY(210%) translateX(-50%) scale(2.0) rotate(45deg); 
+    z-index: -1;
+}
+
 .backgroundSQ2 {
     z-index: -1;
     position: fixed;

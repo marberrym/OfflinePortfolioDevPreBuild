@@ -13,8 +13,8 @@
 }
 
 .navBTNS {
-    padding-right: 1em;
-    padding-left: 1em;
+    padding-right: .5em;
+    padding-left: .5em;
     transition: .3s ease-in-out;
 }
 
@@ -28,4 +28,11 @@
     height: 2.7em; 
     opacity: .8;
     transition: 1s ease-in-out;
+}
+
+@media only screen and (min-width: 500px) {
+    .navBTNS {
+        padding-right: 1em;
+        padding-left: 1em;
+    }
 }
