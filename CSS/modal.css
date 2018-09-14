@@ -37,6 +37,7 @@
 }
 
 .modalBox {
+    border: 2px solid black;
     opacity: 0;
     left: 5%;
     top: 10%;
@@ -51,6 +52,7 @@
 }
 
 .resumeBox {
+    border: 2px solid black;
     opacity:0;
     left: 5%;
     top: 20%;
@@ -80,6 +82,7 @@
 }
 
 .graphicModal {
+    border: 2px solid black;
     opacity: 0;
     left: 5%;
     bottom: -2%;
@@ -178,7 +181,19 @@
     opacity: 1;
 }
 
+.modalLink {
+    font-size: 1.5em;
+    padding: 0;
+}
 
+.sticky {
+    position: sticky;
+    top: 1em;
+}
+
+.pad0 {
+    padding: 0;
+}
 
 .outlineBlack {
     text-shadow: 1px 1px 0 #000,

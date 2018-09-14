@@ -50,7 +50,12 @@ graphicD.forEach(function(image) {
         LH: `Lighthouse is the name of my personal blog.  At one point in my life, I was helped by certain people who I consider to be metaphorical lighthouses.
             They were people that bought light to my life by showing me how to live.  They did not force their light or assistance upon me, instead they let their light
             shine through their actions.  I decided that I wanted to live my life as a lighthouse, lending my experience, knowledge and insight to others wherever and however
-            I can.  I want my passion, drive, integrity and concern to shine through all of my actions.  I want to live life as a lighthouse, showing lost ships the way back home.`
+            I can.  I want my passion, drive, integrity and concern to shine through all of my actions.  I want to live life as a lighthouse, showing lost ships the way back home.`,
+        dgdg: `'Do Good.  Die Great.' is a personal project that I have been working on.  I live a civic minded life, where I try to volunteer my time to make the community a better place.
+            Not only do I feel good when I help others, but it always reminds me about what I truly care about; bettering the world around me.  I wanted a logo that would symbolize the feeling I hope
+            to give others when I volunteer.  I just want to be a hand reaching out to help pick up others.  I want to offer aid to those in need.  I wanted a logo that would hopefully
+            inspire others to feel the same.`
+
     }
     let logo = Object.keys(graphics);
     
@@ -106,7 +111,7 @@ projects.forEach(function(project) {
             projectOne.classList.add('showModal');     
         } else if (projectName === 'images/hiddengem.png') {
             projectTwo.classList.add('showModal'); 
-        } else if (projectName === 'images/Flutter.jpg') {
+        } else if (projectName === 'images/DGSS.png') {
             projectThree.classList.add('showModal');
         } else if (projectName === 'images/MillionsKnives.png') {
             projectFour.classList.add('showModal');

@@ -5,10 +5,5 @@ permalink: /LHM/resume/
 menu: true
 ---
 
->A clean resume
-<embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=http://matthew-marberry.com/images/Resume.pdf" width="500" height="650">
-<a href="http://matthew-marberry.com/images/Resume.pdf">Download PDF</a>.
-
->A styled resume
-<embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=http://matthew-marberry.com/images/Resume2.pdf" width="500" height="650">
-<a href="http://matthew-marberry.com/images/Resume2.pdf">Download PDF</a>.
+<iframe src="https://drive.google.com/file/d/1CSUAzHRNeWxD5c-z-YjfORBHI8TEjK9z/preview" width="640" height="480"></iframe>
+<div><a href="https://drive.google.com/file/d/1CSUAzHRNeWxD5c-z-YjfORBHI8TEjK9z/view?usp=sharing">Download PDF</a>.</div>
