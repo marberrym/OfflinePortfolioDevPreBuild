@@ -20,7 +20,7 @@
      
      
 ## Design Inspiration
-<img src="images/projectHead.jpg" style="height: 500px">
+<img src="images/portfolioPic.jpg" style="height: 250px">
 
 When beginning with the design of my portfolio, I started with the picture I wanted to use as a headshot.  I studied this image for a while and thought of ways that I could edit it to make it flow nicely within a portfolio.  I started by looking at the color and the content of the picture.  I saw that with some photo manipulation I could crop this image into a circle with a new background, I could also embelish the color of my shirt a little bit to make it more workable with an overall design scheme.  
 
@@ -30,6 +30,6 @@ Next I thought about the content I wanted surrounding my head portfolio picture.
 
 I ended up creating a head section of my portfolio that I felt accurately conveyed me as a person.  Shared my values.  Included symmetry as a design element.
 
-<img src="markdownimages/PortfolioHead.png" style="height: 500px">
+<img src="markdownimages/PortfolioHead.png" style="height: 250px;">
       
 [1]: https://www.matthew-marberry.com
