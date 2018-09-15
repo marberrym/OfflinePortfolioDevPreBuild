@@ -205,7 +205,44 @@ After editing the modals accordingly, I found myself to have a responsive portfo
     <img src="/markdownimages/ResponsiveModal.png" height="200px">
 </div>
 
+These were my two largest challenges in regards to design.
 
-### Coming soon!
+#### Coding
+
+I would say that my largest struggle with the JavaScript aspect of this portfolio was creating modals that would slide to the left or the right depending on which arrow the user clicked to scroll through the projects.  This required a series of event listeners that would add classes, then remove them so the modals would cycle infinitely.  
+
+```javascript
+ let scrollRight = (event) => {
+        modal.classList.remove('showModal');
+        modal.classList.add('scrollRight');
+        let parent = right.parentElement;
+        setTimeout(function() {
+            modal.classList.remove('scrollRight')}, 500);
+        if (parent === projectOne) {
+            projectTwo.classList.add('showModal');
+        } else if (parent === projectTwo) {
+            projectThree.classList.add('showModal');
+        } else if ( parent === projectThree) {
+            projectFour.classList.add('showModal');
+        } else {
+            projectOne.classList.add('showModal');
+        }
+    }
+```
+
+This is an example of my scrollRight function which is called whenever the user clicks the right button.  In the future I plan to refactor this code using a modulo to cycle through the images.
+
+The rest of the code was vanilla javascript use to handle any user interactivity.
+
+
+#### Content
+
+Content was my third struggle.  While I developed the site pretty quickly, I struggled more with writing content that was meaningful for my blog which is linked to the site.  While I develop my linkedin and other projects, I find posting blog entries to be put on the back burner.  I will begin to update these more frequently and fully once I have a bit more time and a less extensive list of other stuff to do in my journey to becoming a software engineer.  The blog sure does look pretty though!
+
+<div align="center">
+    <img src="/markdownimages/LGM.png" height="500px">
+</div>
+
+Thanks for taking the time to read my README!  I look forward to developing more informative READMEs in the future.
       
 [1]: https://www.matthew-marberry.com
