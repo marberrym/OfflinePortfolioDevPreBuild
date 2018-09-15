@@ -240,7 +240,7 @@ The rest of the code was vanilla javascript use to handle any user interactivity
 Content was my third struggle.  While I developed the site pretty quickly, I struggled more with writing content that was meaningful for my blog which is linked to the site.  While I develop my linkedin and other projects, I find posting blog entries to be put on the back burner.  I will begin to update these more frequently and fully once I have a bit more time and a less extensive list of other stuff to do in my journey to becoming a software engineer.  The blog sure does look pretty though!
 
 <div align="center">
-    <img src="/markdownimages/LGM.png" height="500px">
+    <img src="/markdownimages/LHM.png" height="500px">
 </div>
 
 Thanks for taking the time to read my README!  I look forward to developing more informative READMEs in the future.
