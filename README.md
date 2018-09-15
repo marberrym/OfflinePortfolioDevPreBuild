@@ -86,7 +86,7 @@ In this project I ran into several challenges in regards to design, coding and c
 
 In regards to the design of my portfolio, I ran into two main challenges.
 
-The first challenge was the creation of the word cloud.  In order to create the word cloud I had to use a series of flex boxes in order to position the words exactly the way I wanted them to appear.  This required a series of nested flex boxes with various classes that were dictating the justification and alignment of each given word.  The execution of the word cloud quickly became a more complex task than I had originally estimated.  Here is a snippet of code from the development of the word cloud:
+The first challenge was the creation of the word cloud.  In order to create the word cloud I had to use a series of flex boxes in order to position the words exactly the way I wanted them to appear.  This required a series of nested flex boxes with various classes and psuedo that were dictating the justification, styling and alignment of each given word.  The execution of the word cloud quickly became a more complex task than I had originally estimated.  Here is a snippet of code from the development of the word cloud:
 
 ```html
 <div id="RightColumn" class="flexColumnSide">
@@ -129,6 +129,82 @@ The first challenge was the creation of the word cloud.  In order to create the 
     </div>
 </div>
 ```
+
+The second main challenge I faced in regards to design was a very important challenge to overcome.  That was the issue of responsiveness and restructuring of the page depending on the screen size of the window being used to view the site.  This required me to scale the absolute positioning of the modal boxes and editing the flexboxes that wrapped around my page content.  This is an example of my media queries for the mainpage.
+
+```css
+@media only screen and (min-width: 500px) {
+    .projectItem {
+        flex-basis: 45%;
+        height: 13em;
+    }
+    .pageHead {
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #aboutContent {
+        flex-direction: row
+    }
+    .animePanel {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .pageOne {
+        height: 100vh;
+    }
+    #LeftColumn {
+        display: flex;
+        flex-basis: 45%;
+        order: 0;
+        align-items: flex-end;
+        margin-top: 0;
+    }
+    .projectItem {
+        flex-basis: 40%;
+        height: 15em;
+        width: 15em;
+    }
+    
+}
+
+@media only screen and (min-width: 1000px) {
+    #LeftColumn {
+        flex-basis: 30%;
+    }
+    #RightColumn {
+        display: flex;
+    }
+    .projectItem {
+        flex-basis: 35%;
+        height: 20em;
+        width: 20em;
+    }
+    .pageHead {
+        margin-top: 5%;
+    }
+    
+}
+@media only screen and (min-width: 1200px) {
+    .projectItem {
+        flex-basis: 30%;
+        height: 20em;
+        width: 20em;
+    }
+}
+
+```
+
+After editing the modals accordingly, I found myself to have a responsive portfolio:
+
+<div align="center">
+    <img src="/markdownimages/ResponsiveHead.png" height="200px">
+    <img src="/markdownimages/ResponsiveProjects.png" height="200px">
+    <img src="/markdownimages/ResponsiveAbout.png" height="200px">
+    <img src="/markdownimages/ResponsiveModal.png" height="200px">
+</div>
+
 
 ### Coming soon!
       
