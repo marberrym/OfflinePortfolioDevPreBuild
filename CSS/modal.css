@@ -1,3 +1,6 @@
+:root {
+    --modalbackground: radial-gradient(circle, rgba(225,220,220,1) 20%, rgba(237,229,241,1) 100%);
+}
 .modalIMG {
     height: 60%;
     width: 100%;
@@ -10,6 +13,7 @@
     height: 100%;
     flex-wrap: wrap;
     overflow: scroll;
+    border-radius: 1em;
 }
 
 .modalFlexC {
@@ -46,7 +50,7 @@
     pointer-events: none;
     height: 80%;
     width: 90%;
-    background: radial-gradient(circle, rgba(177,176,179,1) 20%, rgba(237,229,241,1) 100%);
+    background: var(--modalbackground);
     border-radius: 1em;
     transition: .5s ease-in-out;
 }
@@ -61,7 +65,7 @@
     pointer-events: none;
     height: 60%;
     width: 90%;
-    background: radial-gradient(circle, rgba(177,176,179,1) 20%, rgba(237,229,241,1) 100%);
+    background: var(--modalbackground);
     border-radius: 1em;
     transition: .5s ease-in-out;
 }
@@ -91,7 +95,7 @@
     pointer-events: none;
     height: 75%;
     width: 90%;
-    background: radial-gradient(circle, rgba(177,176,179,1) 20%, rgba(237,229,241,1) 100%);
+    background: var(--modalbackground);
     border-radius: 1em;
     transition: .5s ease-in-out;
     display: flex;
@@ -186,10 +190,6 @@
     padding: 0;
 }
 
-.sticky {
-    position: sticky;
-    top: 1em;
-}
 
 .pad0 {
     padding: 0;
@@ -287,6 +287,10 @@
     }
     .modalFlex {
         flex-wrap: nowrap;
+    }
+    .sticky {
+        position: sticky;
+        top: 1em;
     }
     .resumeBox {
         left: 20%;
