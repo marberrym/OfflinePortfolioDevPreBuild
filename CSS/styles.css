@@ -9,6 +9,10 @@ html body {
     background: radial-gradient(circle, rgba(177,176,179,1) 20%, rgba(237,229,241,1) 100%);
 }
 
+.alignBase {
+    align-items: baseline;
+}
+
 .headProfilePic {
     height: 18.5em; 
     border-radius: 180px;
