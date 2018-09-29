@@ -113,12 +113,13 @@ projects.forEach(function(project) {
             projectTwo.classList.add('showModal'); 
         } else if (projectName === 'images/DGSS.png') {
             projectThree.classList.add('showModal');
-        } else if (projectName === 'images/MillionsKnives.png') {
+        } else if (projectName === 'images/DIYHub.png') {
             projectFour.classList.add('showModal');
         }
     }
         
     let projectName = project.getAttribute('src');
+    console.log(projectName);
     project.addEventListener('click', modalPopup);
 })
 
