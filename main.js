@@ -52,7 +52,11 @@ graphicD.forEach(function(image) {
         dgdg: `'Do Good. Die Great.' is a personal project that Matthew has been working on.  Matthew lives a civic-minded life, where he regularly volunteers his time to make the 
             community a better place. Not only does he feel great when he gets to help others, but it always reminds him about what he truly cares about; bettering the world around him.  
             Matthew wanted a logo that would symbolize the feeling he hopes to give to others when he volunteers.  His goal is to be a hand reaching out to help pick up others in need.  
-            He wants to offer aid to those in need.  Matthew wanted to design a logo that would inspire others to feel the same.`
+            He wants to offer aid to those in need.  Matthew wanted to design a logo that would inspire others to feel the same.`,
+        DIY: `This is the logo for DIYHub, Matthew's most recent and polished project.  DIYHub is an app that aims to increase the productivity, creativity of its user base.  DIYHub also aims
+            to inspire people to try new things and take on new projects.  The projects featured on DIYHub cater to the 'makers' of the world.  Matthew wanted to develop a logo that represented
+            the thought patterns that run through a creator's brain.  Fellow creators always want to know how things work, they want to see what makes them tick and operate.  Matthew chose to run with
+            this theme and drew inspiration from the cogs and gears that make various inventions functional.  DIYHub wants to get its users' internal cogs turning.`
 
     }
     let logo = Object.keys(graphics);
@@ -111,7 +115,7 @@ projects.forEach(function(project) {
             projectFour.classList.add('showModal'); 
         } else if (projectName === 'images/DGSS.png') {
             projectTwo.classList.add('showModal');
-        } else if (projectName === 'images/DIYHub.png') {
+        } else if (projectName === 'images/DIYHubSS.png') {
             projectOne.classList.add('showModal');
         }
     }
