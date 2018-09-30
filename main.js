@@ -67,8 +67,6 @@ graphicD.forEach(function(image) {
         let modalX = document.createElement('i');
         modalX.classList.add('far', 'fa-times-circle', 'fa-2x', 'closeX');
         logo.forEach(function(name) {
-            console.log(name);
-            console.log(src);
             if (src.includes(name)) {
                 description.textContent = graphics[name];
                 description.classList.add("modalDescription");
@@ -83,7 +81,6 @@ graphicD.forEach(function(image) {
         }
         modalWindow.classList.add('showModal');
         graphicModal.classList.add('showModal');
-        console.log(src);
         
         graphicModal.appendChild(modalImg);
         graphicModal.appendChild(description);
@@ -121,7 +118,6 @@ projects.forEach(function(project) {
     }
         
     let projectName = project.getAttribute('src');
-    console.log(projectName);
     project.addEventListener('click', modalPopup);
 })
 
