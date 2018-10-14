@@ -4,6 +4,7 @@ let projectOne = document.querySelector("#projectOne");
 let projectTwo = document.querySelector("#projectTwo");
 let projectThree = document.querySelector("#projectThree");
 let projectFour = document.querySelector("#projectFour");
+let projectFive = document.querySelector("#projectFive");
 let modalCloseBTN = document.querySelectorAll(".closeX");
 let leftArws = document.querySelectorAll(".leftArw");
 let rightArws = document.querySelectorAll(".rightArw");
@@ -112,8 +113,10 @@ projects.forEach(function(project) {
             projectFour.classList.add('showModal'); 
         } else if (projectName === 'images/DGSS.png') {
             projectTwo.classList.add('showModal');
-        } else if (projectName === 'images/DIYHubSS.png') {
+        } else if (projectName === 'images/DIYHUBSS2.png') {
             projectOne.classList.add('showModal');
+        } else if (projectName === 'images/CREATESS.png') {
+            projectFive.classList.add('showModal');
         }
     }
         
@@ -170,6 +173,7 @@ modals.forEach(function(modal) {
         projectTwo.classList.remove("showModal");
         projectThree.classList.remove("showModal");
         projectFour.classList.remove("showModal");
+        projectFive.classList.remove("showModal");
         graphicModal.classList.remove("showModal");
         resumeModal.classList.remove("showModal");
         emptyGraphic();
