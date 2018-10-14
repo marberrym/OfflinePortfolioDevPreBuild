@@ -6,6 +6,11 @@
     width: 100%;
     border-radius: .5em;
 }
+
+.logo48 {
+    margin-top: 5em;
+    height: 5em;
+}
  
 .modalFlex {
     display: flex;
